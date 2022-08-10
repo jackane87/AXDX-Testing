@@ -2,9 +2,14 @@
   "openapi": "3.0.1",
   "info": {
     "title": "Accelerate OMS API",
-    "version": "SDD000999",
-	"description": "This is the api document for OMS"
+    "description": "This is the api document for OMS",
+    "version": "SDD000TESTA"
   },
+  "servers": [
+    {
+      "url": "/"
+    }
+  ],
   "paths": {
     "/api/Antibiotics": {
       "get": {
@@ -63,6 +68,9 @@
           {
             "name": "protocolID",
             "in": "query",
+            "required": false,
+            "style": "form",
+            "explode": true,
             "schema": {
               "type": "integer",
               "format": "int32"
@@ -85,6 +93,9 @@
           {
             "name": "username",
             "in": "query",
+            "required": false,
+            "style": "form",
+            "explode": true,
             "schema": {
               "type": "string"
             }
@@ -92,6 +103,9 @@
           {
             "name": "password",
             "in": "query",
+            "required": false,
+            "style": "form",
+            "explode": true,
             "schema": {
               "type": "string"
             }
@@ -111,6 +125,9 @@
           {
             "name": "username",
             "in": "query",
+            "required": false,
+            "style": "form",
+            "explode": true,
             "schema": {
               "type": "string"
             }
@@ -118,6 +135,9 @@
           {
             "name": "password",
             "in": "query",
+            "required": false,
+            "style": "form",
+            "explode": true,
             "schema": {
               "type": "string"
             }
@@ -139,6 +159,9 @@
           {
             "name": "itemType",
             "in": "query",
+            "required": false,
+            "style": "form",
+            "explode": true,
             "schema": {
               "type": "string"
             }
@@ -146,6 +169,9 @@
           {
             "name": "itemID",
             "in": "query",
+            "required": false,
+            "style": "form",
+            "explode": true,
             "schema": {
               "type": "integer",
               "format": "int32"
@@ -200,6 +226,9 @@
           {
             "name": "noteID",
             "in": "query",
+            "required": false,
+            "style": "form",
+            "explode": true,
             "schema": {
               "type": "integer",
               "format": "int32"
@@ -208,6 +237,9 @@
           {
             "name": "itemType",
             "in": "query",
+            "required": false,
+            "style": "form",
+            "explode": true,
             "schema": {
               "type": "string"
             }
@@ -215,6 +247,9 @@
           {
             "name": "itemID",
             "in": "query",
+            "required": false,
+            "style": "form",
+            "explode": true,
             "schema": {
               "type": "integer",
               "format": "int32"
@@ -237,6 +272,9 @@
           {
             "name": "orderID",
             "in": "query",
+            "required": false,
+            "style": "form",
+            "explode": true,
             "schema": {
               "type": "integer",
               "format": "int32"
@@ -331,6 +369,9 @@
           {
             "name": "orderKey",
             "in": "query",
+            "required": false,
+            "style": "form",
+            "explode": true,
             "schema": {
               "type": "string"
             }
@@ -338,6 +379,9 @@
           {
             "name": "runID",
             "in": "query",
+            "required": false,
+            "style": "form",
+            "explode": true,
             "schema": {
               "type": "integer",
               "format": "int32"
@@ -346,6 +390,9 @@
           {
             "name": "hostID",
             "in": "query",
+            "required": false,
+            "style": "form",
+            "explode": true,
             "schema": {
               "type": "integer",
               "format": "int32"
@@ -354,6 +401,9 @@
           {
             "name": "serial",
             "in": "query",
+            "required": false,
+            "style": "form",
+            "explode": true,
             "schema": {
               "type": "integer",
               "format": "int32"
@@ -362,6 +412,9 @@
           {
             "name": "bay",
             "in": "query",
+            "required": false,
+            "style": "form",
+            "explode": true,
             "schema": {
               "type": "integer",
               "format": "int32"
@@ -370,6 +423,9 @@
           {
             "name": "experiment",
             "in": "query",
+            "required": false,
+            "style": "form",
+            "explode": true,
             "schema": {
               "type": "string"
             }
@@ -377,6 +433,9 @@
           {
             "name": "path",
             "in": "query",
+            "required": false,
+            "style": "form",
+            "explode": true,
             "schema": {
               "type": "string"
             }
@@ -384,6 +443,9 @@
           {
             "name": "barcode",
             "in": "query",
+            "required": false,
+            "style": "form",
+            "explode": true,
             "schema": {
               "type": "string"
             }
@@ -391,6 +453,9 @@
           {
             "name": "version",
             "in": "query",
+            "required": false,
+            "style": "form",
+            "explode": true,
             "schema": {
               "type": "string"
             }
@@ -398,6 +463,9 @@
           {
             "name": "cycles",
             "in": "query",
+            "required": false,
+            "style": "form",
+            "explode": true,
             "schema": {
               "type": "integer",
               "format": "int32"
@@ -406,6 +474,9 @@
           {
             "name": "interval",
             "in": "query",
+            "required": false,
+            "style": "form",
+            "explode": true,
             "schema": {
               "type": "integer",
               "format": "int32"
@@ -414,6 +485,9 @@
           {
             "name": "startedBy",
             "in": "query",
+            "required": false,
+            "style": "form",
+            "explode": true,
             "schema": {
               "type": "string"
             }
@@ -421,6 +495,9 @@
           {
             "name": "userToken",
             "in": "query",
+            "required": false,
+            "style": "form",
+            "explode": true,
             "schema": {
               "type": "string"
             }
@@ -442,6 +519,9 @@
           {
             "name": "orderKey",
             "in": "query",
+            "required": false,
+            "style": "form",
+            "explode": true,
             "schema": {
               "type": "string"
             }
@@ -449,6 +529,9 @@
           {
             "name": "runID",
             "in": "query",
+            "required": false,
+            "style": "form",
+            "explode": true,
             "schema": {
               "type": "integer",
               "format": "int32"
@@ -457,6 +540,9 @@
           {
             "name": "hostID",
             "in": "query",
+            "required": false,
+            "style": "form",
+            "explode": true,
             "schema": {
               "type": "integer",
               "format": "int32"
@@ -465,6 +551,9 @@
           {
             "name": "serial",
             "in": "query",
+            "required": false,
+            "style": "form",
+            "explode": true,
             "schema": {
               "type": "integer",
               "format": "int32"
@@ -473,6 +562,9 @@
           {
             "name": "bay",
             "in": "query",
+            "required": false,
+            "style": "form",
+            "explode": true,
             "schema": {
               "type": "integer",
               "format": "int32"
@@ -481,6 +573,9 @@
           {
             "name": "experiment",
             "in": "query",
+            "required": false,
+            "style": "form",
+            "explode": true,
             "schema": {
               "type": "string"
             }
@@ -488,6 +583,9 @@
           {
             "name": "path",
             "in": "query",
+            "required": false,
+            "style": "form",
+            "explode": true,
             "schema": {
               "type": "string"
             }
@@ -495,6 +593,9 @@
           {
             "name": "barcode",
             "in": "query",
+            "required": false,
+            "style": "form",
+            "explode": true,
             "schema": {
               "type": "string"
             }
@@ -502,6 +603,9 @@
           {
             "name": "version",
             "in": "query",
+            "required": false,
+            "style": "form",
+            "explode": true,
             "schema": {
               "type": "string"
             }
@@ -509,6 +613,9 @@
           {
             "name": "cycles",
             "in": "query",
+            "required": false,
+            "style": "form",
+            "explode": true,
             "schema": {
               "type": "integer",
               "format": "int32"
@@ -517,6 +624,9 @@
           {
             "name": "interval",
             "in": "query",
+            "required": false,
+            "style": "form",
+            "explode": true,
             "schema": {
               "type": "integer",
               "format": "int32"
@@ -525,6 +635,9 @@
           {
             "name": "startedBy",
             "in": "query",
+            "required": false,
+            "style": "form",
+            "explode": true,
             "schema": {
               "type": "string"
             }
@@ -532,6 +645,9 @@
           {
             "name": "success",
             "in": "query",
+            "required": false,
+            "style": "form",
+            "explode": true,
             "schema": {
               "type": "boolean"
             }
@@ -539,6 +655,9 @@
           {
             "name": "userToken",
             "in": "query",
+            "required": false,
+            "style": "form",
+            "explode": true,
             "schema": {
               "type": "string"
             }
@@ -632,6 +751,9 @@
           {
             "name": "protocolID",
             "in": "query",
+            "required": false,
+            "style": "form",
+            "explode": true,
             "schema": {
               "type": "integer",
               "format": "int32"
@@ -726,6 +848,9 @@
           {
             "name": "protocolID",
             "in": "query",
+            "required": false,
+            "style": "form",
+            "explode": true,
             "schema": {
               "type": "integer",
               "format": "int32"
@@ -748,6 +873,9 @@
           {
             "name": "protocolID",
             "in": "query",
+            "required": false,
+            "style": "form",
+            "explode": true,
             "schema": {
               "type": "integer",
               "format": "int32"
